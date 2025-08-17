@@ -38,7 +38,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
       });
     } else {
       setState(() => hasInternet = true);
-      _controller.loadRequest(Uri.parse('https://meracredit.in'));
+      _controller.loadRequest(Uri.parse('https://meracredit.in/onboarding.html'));
     }
   }
 
